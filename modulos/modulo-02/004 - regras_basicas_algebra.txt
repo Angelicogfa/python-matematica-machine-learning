@@ -1,0 +1,45 @@
+* As regras regais para manipular números e variáveis é um processo conhecido como Álgebra.
+
+abc + de = 0
+
+a,b,c,d,e => fatores
+abc, de => termo
+abc + de => expressão
+abc + de = 0 => equação
+
+* Propriedade associativa:
+    a + b + c = (a + b) + c = a + (b + c)
+        abc = (ab)c = a(bc)
+
+    Adicionar ou remover os parenteses não altera o resultado
+
+* Propriedade comutativa:
+    a + b = b + a
+        ab = ba
+
+    Alterar a ordem dos números não altera o resultado
+
+* Propriedade distributiva
+    a(b + c) = ab + ac
+
+    Para remover os parentes em uma expressão, basta multiplar o valor que esta
+    fora dos parênteseis pelos valores que estão dentro do parenteses.
+    Usamos a propriedade distributiva toda vez que expandimos os parênteseis:
+        
+        a(b + c + d) = ab+ ac + ad
+            oposto (fatoração)
+        ab + ac + ad = a(b + c + d)
+
+        (x + 3)(x + 2) = x(x + 2) + 3(2 + 2) = x² + x2 + 3x + 6
+        Podemos ainda usar a propriedade comutativa em umas das expressões, por exemplo:
+        (x + 3)(x + 2) = x² + 5x + 6
+
+    Fatoração: envolve tirar as partes comuns de uma expressão complicada para tornar a expressão
+    mais compacta. Suponha a expressão:
+
+        6x²y + 15x
+        6x²y + 15x = (3)(2)(x)(x)y + (5)(3)x = 3x(2xy + 5)
+
+    
+
+*   

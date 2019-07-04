@@ -1,0 +1,17 @@
+* Equação quadratica ou equação do segundo grau é denominada assim pois possui uma variavel desconhecida x ao quadrado, exemplo:
+
+    x² = 45x + 23
+
+    Formula geral: ax² + bx + c = 0, em que:
+        x: é uma variável
+        a, b e c são constantes, com a diferente de 0 (caso contrario, a equação torna-se linear)
+
+    ax² + bx + c = 0 em x² = 45x + 23 => x² - 45x - 23 = 0
+
+    Para resolver a equação: x = (-b +- raiz(b² - 4 * a * c)) / (2* a)
+
+    x1 = 45 + raiz(|45|² - 4 * 1 * (-23)) / 2 = 45.5054...
+    x2 = 45 - raiz(|45|² - 4 * 1 * (-23)) / 2 = -0.5054...
+
+    
+

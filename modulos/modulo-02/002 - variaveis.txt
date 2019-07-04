@@ -1,0 +1,13 @@
+* Em matematica usamos muitas variáveis e constantes, que são marcadores para qualquer número ou valor desconhecido. Variaveis nos permitem realizar cálculos
+sem conhecer todos os detalhes
+
+* Ordens de operações matematica
+1º Parenteseis
+2º Expoentes
+3° Multiplicação e Divisão (da esquerda para a direita)
+4º Somas e Subtrações (da esquerda para direita)
+
+*É ainda importante ressaltar , que todas as expressões que envolvam logaritmos, razões trigonométricas ou qualquer outro tipo de função, deverão ser executadas 
+em primeiro lugar.
+
+    Não é possível calcular 3 + f(2) antes de conhecer f(2)

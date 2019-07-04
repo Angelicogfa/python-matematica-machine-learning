@@ -1,0 +1,53 @@
+* Usamos funções para descrever as relações entre variáveis. Em particular, as funções descrevem como uma variavel depende de outra.
+
+    ex: input x -> function f: -> output f(x)
+
+    Problema ex:
+        O faturamento F de um cinema depende do número (n) de ingressos vendidos e logo temos uma funçção entre as duas variaveis.
+
+        se um ingresso custa 25 reais, temos:
+            F(n) = 25 * n
+        
+        Qual o número de tickets para o Faturamento de 7000 reais ?
+
+        F(n) = 7000
+        7.000 = 25 * n
+        n = 7000 / 25
+        n = 280
+
+    Quanto mais funções você conhece, mais ferramentas você tem para modelar a realidade. Para "conhecer" uma função, 
+    você deve ser capaz de entender e conectar vários dos seus aspectos.
+
+    Primeiro você precisa conhecer a definição matemática da função, que descreve exatamente o que a função faz.
+
+    A partir da definição da função, você pode usar suas habilidades matemáticas para encontrar o domínio da função,
+    sua imagem e função inversa. Você também deve conhecer o gráfico da função.
+
+    Finalmente -e esta é a parte que leva tempo - você deve aprender sobre as relações da função com outras funções.
+
+* Dóminio, imagem e contradominio:
+
+    * Dominio
+        Conjunto de valores de entradas permitidos para a função
+
+    * Contradominio:
+        Conjunto de valores de saída permitidos para a função
+
+    * Image:
+        Conjunto de todos os possíveis valores de saída para a função
+
+    exemplo:
+        A = { 1,2,3,4,5 }
+        B = { 1,2,3,4,5,6,7 }
+
+        A       B
+        x  ->  f(x)
+        ---------
+        1       2
+        2       3
+        3       4
+        4       5
+        5       6
+        ---------
+
+
