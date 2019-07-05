@@ -50,4 +50,23 @@
         5       6
         ---------
 
+        Dominio -> A
+        Contradominio -> B
+        Imagem -> Representada pelos elementos do contradominio (B) que possuem correspondencia com o dóminio (A)
+            -> { 2,3,4,5,6 }
+
+
+        f(x) = x²
+            f: R -> R (número reais)
+
+        O domínio da funçao R (recebe números reais como entrada) e seu contradomínio é R (as saídas são números reais também). No
+        entanto, nem todas as saídas são possíveis.
+
+        imagem da função: f(x) = x² consiste apenas dos números reais não-negativos:
+        (0, (infinito)) /// { y E R | y >= 0 } y pertence aos números reais, mas y tem que ser maior ou igual a 0.
+
+        lembrando: Função é o mapeamento entre uma entrada e saida. Assim  como uma função inversa é o mapeamento inverso da função f.
+        
+
+
 

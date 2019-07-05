@@ -1,0 +1,26 @@
+* Um gráfico é uma linha em um pedaço de papel que passa por todos os pares de entrada-saída de uma função.
+
+    * O eixo horizontal, chamado de abscissa, é usado para medir x.
+    * O eixo vertical é usado para medir f(x), podendo ser denominado como y, ou seja, y = f(x) = saída
+
+    exemplos:
+
+    * função linear
+        f(x) = mx + b
+
+        grafico: linha reta
+        domínio: x E R
+        imagem:  { x != 0 }
+
+            * função inversa
+                ** pesquisar **
+
+    * função quadratica
+        f(x) = x²
+
+        gráfico: parabola
+        domínio: x E R
+        imagem: { x >= 0 }
+
+            * função inversa:
+                f(x) = raiz(x)
