@@ -148,6 +148,31 @@ y = lambda x: 20 * x + 15
 dados = [1, 2, 5, 6, 8, 10, 11.5, 13.8]
 result = [y(x) for x in dados]
 
+def correlacao(x: np.ndarray, y: np.ndarray) -> float:
+    n = len(x)
+    print('n: %s' % n)
+    xy = x * y
+    print('xy: %s' % xy)
+    sumx = x.sum()
+    print('sumx: %s' % sumx)
+    sumy = y.sum()
+    print('sumy: %s' % sumy)
+    sumxy = xy.sum()
+    print('sumxy: %s' % sumxy)
+    sxp = np.sum(x ** 2)
+    print('sxp: %s' % sxp)
+    syp = np.sum(y ** 2)
+    print('syp: %s' % syp)
+
+    numerador = n * sumxy - sumx * sumy
+    print('numerador: %s' % numerador)
+    denominador =  ((n * sxp - sumx ** 2) * (n * syp - sumy ** 2)) ** 0.5
+    print('denominador: %s' % denominador)
+
+    return numerador / denominador
+
+correlacao(np.array(dados), np.array(result))
+
 plt.plot(dados, result, 'r-')
 plt.title('Dados')
 plt.ylabel('y')
