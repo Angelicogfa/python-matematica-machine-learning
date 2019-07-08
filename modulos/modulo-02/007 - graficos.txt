@@ -13,7 +13,7 @@
         imagem:  { x != 0 }
 
             * função inversa
-                ** pesquisar **
+                f-¹(x) = 1/m * (x - b)
 
     * função quadratica
         f(x) = x²
