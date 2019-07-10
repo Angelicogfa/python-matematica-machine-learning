@@ -1,4 +1,4 @@
-* As regras regais para manipular números e variáveis é um processo conhecido como Álgebra.
+* As regras gerais para manipular números e variáveis é um processo conhecido como Álgebra.
 
 abc + de = 0
 
