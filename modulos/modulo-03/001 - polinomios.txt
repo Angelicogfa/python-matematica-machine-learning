@@ -1,0 +1,55 @@
+Os polinômios são uma família de funções, por exemplo:
+
+    f(x) = ax² + bx + c
+
+As funções polinomiais surgem frequentemente ao descrever fenômenos físicos. A equação geral para uma
+função polinomial de grau n é escrita como:
+
+    f(x) = a0 + a1x + a2x² + a3x³ ... anxn
+
+As constantes a são conhecidas como coeficientes do polinômio e podemos difinir os seguintes parâmetros:
+
+    x: a variável
+    a0: termo constantes
+    a1: o coeficiente linear ou coeficiente de primeira ordem
+    a2: o coefifiente quadrático
+    a3: o coeficiente cúbico
+    an: o enésimo coeficiente de ordem
+    n: o grau do polinômio. O grau de f(x) é a maior potência de x que aparece no polinômio.
+
+        Um polinômio de grau n tem n + 1 coeficientes: a0, a1, a2 ... a.
+
+Exemplo:
+    * polinomio de primeiro grau: 
+        f(x) = mx + b
+    * polinomio de segundo grau:
+        f(x) = a2x² + a1x + a0
+
+    Em geral, um polinômio de grau n tem a seguinte equação:
+        f(x) = anxn = an-1 x n-1 + ... + a2x² + a1x + a0
+
+f(x) + g(x) = (anxn + ... + a1x + a0) + (bnxn + ... + b1x + b0) = (an + bn)xn + ... + (a1 + b1)x + (a0 + b0)
+
+* exemplo de resolvendo problema:
+
+    produto x       F(x) = 2x² + 2x -> faturamento da empresa com base no produto
+                    C(x) = x² + 5x + 10 -> custo de produção do produto x
+
+    break-even (custo de produção do produto)
+        
+        F(x) = C(x)
+
+        2x² + 2X = x² + 5X + 10
+        2x² - x² + 2X - 5X - 10 = 0
+        x² - 3X - 10 = 0
+
+        x { x1 = -2 e x2 = 5 }
+
+python:
+pip install sympy
+from sympy.solvers import solve
+from sympy import Symbol
+
+x = Symbol('x')
+solve(x ** 2 + 3 * x - 10, x)        
+                    
