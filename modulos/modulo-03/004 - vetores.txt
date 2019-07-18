@@ -1,0 +1,25 @@
+* Vetores
+    Vetores são conjuntos de dados (lista de dados) e/ou objetos geométricos.
+
+    * Operações com vetores:
+
+        Considere os dois vetores:
+        u-> (ux, uy)    v-> (vx, vy)
+
+        Operação                Formula
+        Adição                  u-> + v-> = (ux + vx, uy + vy)
+        Subtração               u-> - y-> = (ux - vx, uy - vy)
+        Escala                  (alpha)*u-> = ((alpha)ux, (alpha)uy)
+        Dot Product             u-> * v-> = ux*vx + uy*vy
+        Length (comprimento)    ||u->|| = raiz(u-> * u->) = raiz(u 2/x = u 2/y)
+        Cross Product           u-> * v-> = (uyvz - uzvy, uzvx - uxvz, uxvy - uyvx)
+
+    * Dimensões
+        Bidimensional: x, y
+        Três Dimensões: x, y, z
+        n Dimensões: v-> = (v1, v2, ..., vn) E R(n)
+
+    * Sistema de coordenadas:
+        Os componentes vetoriais dependem do sistema de coordenadas em que os vetores são representados
+
+        v-> = v1ê1 = v2ê2 + v3ê3

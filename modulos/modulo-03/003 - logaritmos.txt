@@ -1,0 +1,54 @@
+* Logaritmo é uma ferramenta para auxiliar na resolução de calculos exponenciais.
+
+Sendo a e b números reais positivos, chama-se logaritmo de b na base a, o expoente
+em que a deve ser elevado de modo que a potência obtida de base a seja igual a b
+
+log(a) b = x <=> a ele(x) = b
+    com a > 0, a <> 1 e b > 0
+
+ex: log(2) 16 = 4, pois 2 ele(4) = 16
+
+* Logaritmo natural é a função inversa do exponencial e(x)
+    f(x) = ln(x) = log(e) x
+
+* Propriedades do logarítmo
+
+    * Logaritmo do produto:
+        o logaritmo do produto do produto de dois fatores A e B em qualquer base C é igual a soma dos logaritmos de cada um desses fatores,
+        considerando que C > 0, C <> 1, A > 0 e B > 0.
+
+        Formula:                                            Exemplo:
+        log (c) a*b = log(c)a + log(c)b                     log(3) 9 * 27 = log(3) 9 + log(3) 27 = 2 + 3 = 5
+
+    * Logaritmo do quociente:
+        o logaritmo do quociente de dois fatores A e B em qualquer base C é igual a diferença dos logaritmos de cada um desses fatores,
+        considerando que C > 0, C <> 1, A > 0 e B > 0.
+
+        Formula:                                            Exemplo:
+        log (c) a/b = log(c)a - log(c)b                     log(3) 27/9 = log(3) 27 + log(3) 9 = 3 - 2 = 1
+
+    * Logaritmo da potência
+        o logaritmo de uma potência em qualquer base C é igual o produto entre o expoente da potência e o logaritmo cujo o logaritmando é a base da potência,
+        considerando que A > 0, A <> 1, B > 0 e  C E R.
+
+        Formula:                                            Exemplo:
+        log (a) b^c = c * log(a) b                         log(3) 9^5 = 5 * log(3) 9 = 5 * 2 = 10
+
+    * Logaritmo de uma raiz
+        o logaritmo de uma raiz enesima qualquer de um número real positivo é o produto entre o inverso do indice da raiz pelo logaritmo, cujo logaritmando é o radicando,
+        considerando 
+
+        Formula:                                            Exemplo:
+        log (a) raiz n (b) = log(a) b^1/n = 1/n + log(a) b  log(5) raiz 3(25) = 1/3 * log(5) 25 = 1/3 * 2 = 2/3
+
+* Mudança de base
+    Algumas vezes os logarimos de bases diferentes precisam ser transformados para outra base, de forma que ela seja a mesma para os mesmos logaritmos,
+    sendo: a, b e c números reais positivos, então:
+        log(a) b = log(c) b / log(c) a = 1/log(b) a, a <> 1 e b <> 1
+
+        exemplo:
+            log(3) 4 = 1/log(4)3
+
+
+
+    
