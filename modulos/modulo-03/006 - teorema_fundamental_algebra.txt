@@ -1,0 +1,29 @@
+* Teorema fundamental da algebra
+    A solução de qualquer equação polinomial na forma:
+        a0 + a1x + ... + anxn = 0
+
+        É igual a:
+        Z = a + bi, onde:
+        Z = é um número complexo e uma unidade imaginaria
+        a, b = pertence ao conjunto de números reais
+
+    Logo um polinômio de qualquer ordem pode ser escrito como:
+        P(x) = (x - z1)(x - z2) ... (x - zn)
+            Zi E C
+
+        x² + 1 = 0
+        z1 = i e z2 = -i
+
+    Qualquer equação polinomial - não importa quão complicada seja - tem soluções
+    que são números complexos C.
+
+    exemplo:
+    m + n = x onde m e n está nos números N e a solução estará em N
+    x + m = n onde m e n está nos números N e a solução estará em Z
+    m * x = n onde m e n está nos números Z e a solução estará em Q
+    x² = 2 e a solução estará em R
+    .
+    .
+    .
+    .
+    Qualquer outra equação estará em C

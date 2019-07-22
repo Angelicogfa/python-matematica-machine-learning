@@ -1,0 +1,75 @@
+* Números complexos
+    Conjunto numerico mais abrangente que o conjunto de números reais.
+
+    * Unidade imaginária:
+        Número criado para expressão valores que não podem ser resolvidos pelos números reais R
+
+        ex: x²+1 = 0, onde x= +- raiz(-1).
+            Não existe raiz quadrada de número negativo no conjunto de números reais. Para tal, foi criado o número i (unidade imaginária) para
+            representar esse número negativo.
+
+            i² = -1
+            x = +- i
+
+        Por ser uma equação quadratica, teriamos duas soluções para x:
+            x1 = i
+            x2 = -i
+
+        Logo, um número compleo que chamamos de Z, tem a forma:
+            z = a + bi, a, b E R
+        
+        Chamamos o número a de parte real, Re(Z) = a, e b de parte imaginária, Im(Z) = b. Esta notação é chamada
+        de forma algébrica.
+
+    * Operações com números complexos:
+        * Adição:
+            Se dá por base da adição dos termos semelhantes, ou seja, somamos primeiro as partes reais e depois as partes imaginarias:
+                z1 + z2 = (a + bi) + (c + di)
+                z1 + z2 = (a + b) + (b + d)i
+
+                exemplo:
+                Se z1 = 3 + 2i e z2 = 5 - 3i a soma será:
+                z1 + z2 = (3 + 5) + (2 - 3)i
+                    z1 + z2 = 8 - i
+        
+        * Subtração:
+            Se dá por base da diferença dos números reais e depois a diferença dos números imaginarios:
+                z1 - z2 = (a + bi) - (c + di)
+                z1 - z2 = (a - c) + (b - d)i
+
+                exemplo:
+                se z1 = 7 + 10i e z2 = 3 + 6i a diferença será:
+                z1 - z2 = (7 - 3) + (10 - 6)i
+                z1 - z2 = 4 - 4i
+
+        * Multiplicação:
+            Se dá pela multiplicação de cada termo do primeiro fator por todos os membros do segundo fator, sendo z1 = a + bi e z2 = c + di:
+                z1 * z2 = (a + bi) * (c + di)
+                z1 * z2 = (ac - bd) + (ad + bc)i
+
+                exemplo:
+                se z1 = 2 + 5i r z2 = 1 + 3i, o produto será:
+                z1 * z2 = (2 + 5i) + (1 + 3i)
+                z1 * z2 = 2 * 1 + 2 * 3i + 5i * 1 + 5i * 3i
+                z1 * z2 = 2 + 6i + 5i + 15i²
+                z1 * z2 = 2 + 6i + 5i + 15 * (-1)
+                z1 * z2 = 2 + 6i + 5i - 15
+                z1 * z2 = (2 - 15) + (6 + 5)i
+                z1 * z2 = -13 + 11i
+
+        * Divisão:
+            A operação se da pela divisão do dividendo e do divisor pelo conjugado do divisor, sendo z1 = a + bi e z2 = c + di:
+                z1/z2 = (a + bi / c + di) * (c - di/c - di)
+                z1/z2 = (a + bi) * (c - di) / c² - (di)²
+                z1/z2 = ((ac - bd) + (ad+bc)i) / c² + d² = ((ac - bd) / (c² + d²)) + ((ad + bc)/(c²+d²))i
+
+                exemplo:
+                se z1 = 1 + 2i e z2 = 2 + 3i a divisão será:
+                z1/z2 = ((1 + 2i)/(2+3i)) * ((2-3i)/(2-3i))
+                z11/z2 = ((1+2i)*(2-3i))/(2²-(3i)²)
+                z1/z2 = ((8-i)/(4+9)) = 8-i/13 = 8/13 - (1/13)i
+
+    * Argumento de um número complexo
+        Plano de Argand-Gauss
+
+

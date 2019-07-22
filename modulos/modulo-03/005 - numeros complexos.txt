@@ -1,2 +1,0 @@
-* Números complexos
-    Conjunto numerico mais abrangente que o conjunto de números reais.

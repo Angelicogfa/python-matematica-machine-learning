@@ -1,0 +1,32 @@
+* Resolvendo sistemas de equação linear
+
+    Exemplo:
+        2x + 4 = 7x
+        4 = 7x - 2x
+        4 = 5x
+        5x = 4
+        x = 4/5
+
+   | x + 2y = 5
+   |3x + 9y = 21
+
+   * Possíveis soluções:
+        
+        * substituição:
+            x = 5 - 2y
+            3*(5 - 2y) + 9y = 21
+            15 - 6y + 9y = 21
+            3y = 21 - 15
+            3y = 6
+            y = 6/3
+            y = 2
+
+            x + 2y = 5
+            x + 2*2 = 5
+            x = 5 - 4
+            x = 1
+
+        
+
+
+
