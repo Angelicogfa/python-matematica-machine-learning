@@ -26,7 +26,7 @@ print(r1 + r2)
 # os vetores v1 e v2 acima, o resultado do produto escalar é 5. Crie o código
 # que encontre esse resultado
 
-print(v1.dot(v2))
+print(dot(v1, v2))
 
 # Exercício 4 - Faça uma multiplicação element-wise entre os vetores v1 e v2
 print(v1 * v2)
@@ -38,7 +38,8 @@ print(cos(v1))
 v = array([1., 2.])
 M = array([[1., 2], [3., 4]])
 
-print(v * M)
+print(dot(M, v))
+print(dot(v, M))
 
 # Exercício 7 - Usando a função solve() do pacote linalg do scipy, encontre
 # a solução do sistema de equações lineares representado pelos 2 array abaixo
@@ -51,7 +52,7 @@ sl.solve(A, b)
 # Exercício 8 - Explique porque a operação abaixo com os mesmos objetos A e b do exercicio anterior
 # apresenta resultados diferentes
 
-A * b
+dot(A, b)
 
 # Resposta: O resultado é diferente porque no exercicio 7 estamos resolvendo um sistema de equações
 # e os arrays são apenas representados destas equações. Aqui no exercicio 8 estamos tratando os arrays
@@ -72,13 +73,8 @@ A = array([[1,0,2,0], [0,0,0,0], [3.,0.,0.,0.], [1.,0.,0.,4]])
 print(A)
 help(compress)
 
-scipy.sparse.isspmatrix_coo(A)
-scipy.sparse.isspmatrix_bsr(A)
-scipy.sparse.isspmatrix_csc(A)
-scipy.sparse.isspmatrix_csr(A)
-scipy.sparse.isspmatrix_dia(A)
-scipy.sparse.isspmatrix_dok(A)
-scipy.sparse.isspmatrix_lil(A)
+csr = scipy.sparse.csr_matrix(A)
+csr.data
 
 # Exercício 10 - Desafio
 # Abaixo você encontra uma classe Python que descreve uma rede neural artificial apenas com operações matemáticas. 
@@ -213,6 +209,4 @@ class Network(object):
 
 # Função de Ativação Sigmóide
 def sigmoid(z):
-    return 1 / (1 + np.exp(-z))
-
-
+    return 1.0 / (1.0 + np.exp(-z))
