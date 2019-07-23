@@ -1,0 +1,43 @@
+* Vetores
+    Vetores são objetos que podem ser somados (para formar novos vetores) e que podem ser multiplicados
+    por escalares (ou seja, números), também para formar novos vetores.
+
+    Concretamente vetores são pontos em algum espaço de dimensão finita. Embora você possa pensar em seus
+    dados como vetores, eles são uma boa maneira de representar dados numéricos.
+
+    ex:
+        peso = 75 -> a = 75 (escalar)
+        altura = 170 
+
+        pessoa = |75 |
+                 |170|
+
+
+      altura (y)
+        |
+        |
+    170 |----------        R^² => R^n
+        |          |      (conjunto de numeros reais em duas dimensões)
+        |          |
+        |          |
+        |__________|_______ peso (x)
+        0          75        
+
+
+    * Representação de vetores
+        Peso = 85                   Pessoa = |85 |
+        Altura = 170                         |170|
+        Idade = 36                           |36 |
+                   
+        Exame 1 = 90                Exame = |90 |
+        Exame 2 = 80                        |80 |
+        Exame 3 = 96                        |96 |
+        Exame 4 = 100                       |100|
+
+            |u1|
+            |u2|        U = (u1, u2, u3, ..., un)
+        U = |u3|        R^n (conjunto de números reais em n dimensoes)
+            |. |        
+            |. |        |R = Conjunto de números reais |
+            |un|        |n = n dimensões               |
+            

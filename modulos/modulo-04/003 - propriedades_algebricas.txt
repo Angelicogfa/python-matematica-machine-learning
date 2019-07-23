@@ -1,0 +1,18 @@
+* Propriedades algébricas
+
+    a, b = escalares
+    U, V, W = vetores em R^n
+
+    1 - U + V = V + U
+    2 - a(U + V) = a * U + a * V
+    3 - (a + b) * U = a * U + b * U
+    4 - (U + V) + W = U + (V + W)
+    5 - U + (-U) = 0
+    6 - a (b U) = a * b * (U)
+    7 - U + 0 = 0 + U = U
+    8 - 1U = U
+
+    ---------------------------------------
+    Vetor nulo / Vetor nulo
+    x = (0,0,0,0,..., 0^n)
+

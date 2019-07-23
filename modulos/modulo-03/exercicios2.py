@@ -1,7 +1,6 @@
 from scipy import *
 from scipy.linalg import *
 from matplotlib.pyplot import * 
-%matplotlib inline
 
 # Considere os vetores v1 e v2 abaixo para resolver os exercicios de 1 a 5.
 

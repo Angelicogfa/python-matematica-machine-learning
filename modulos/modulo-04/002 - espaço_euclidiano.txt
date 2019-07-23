@@ -1,0 +1,19 @@
+* Vetores no espaço e espaço euclidiano
+    
+    Espaço euclidiano: Espaço existente dentro do espaço vetorial de R^n entre as operações de vetores
+
+        |u1|
+        |u2|      U = (u1, u2, u3, ..., un) Vetor linha
+    U = |u3|        
+        |. |        
+        |. |        
+        |un|
+    Vetor Coluna        
+
+    Pessoa = |85 |
+             |170| => Espaço vetorial R³
+             |36 |
+
+    C = 5 (valor escalar)
+    V = (100,20,30,45,60)
+
