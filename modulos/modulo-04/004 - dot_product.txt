@@ -1,0 +1,16 @@
+* Produto interno (dot product)
+    
+    É um numero real que relaciona o comprimento de dois vetores e o ângulo entre eles.
+    Na geometria analítica, os pontos são responsáveis por representar localizações. Os vetores,
+    por sua vez, são os elementos que distinguem, dentro do espaço onde estão, direção e sentido
+    de movimento de um ponto.
+
+    * Formula:
+
+        Direção: Aponta para onde vai
+        Magnetude: tamanho dessa reta no plano de coordenadas cartesiano
+
+        a * b = |a| . |b| * cos(angulo)
+        a * b = ax . bx + ay . by => valor escalar
+
+        

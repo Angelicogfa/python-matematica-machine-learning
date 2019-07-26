@@ -1,0 +1,8 @@
+* Produto Crusado (cross product)
+
+    a x b => valor vetorial
+
+    a = (ax, ay, az) / b = (bx, by, bz)
+
+    a x b = |a| x |b| x sin(angulo)
+    
