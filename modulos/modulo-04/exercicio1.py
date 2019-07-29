@@ -8,11 +8,7 @@ def somar_vetores(vetor1, vetor2) -> []:
     if (len(vetor1) != len(vetor2)):
         raise ValueError('Ambos vetores devem ter a mesma dimensão')
 
-    result = []
-    for i in range(len(vetor1)):
-        result.append(vetor1[i] + vetor2[i])
-    
-    return result
+    return (lambda vet1, vet2: [a + b for a, b in zip(vetor1, vetor2)])(vetor1, vetor2)
 
 somar_vetores(v1, v2)
 
@@ -71,20 +67,36 @@ v2 = [2, 1]
 
 np.dot(v1, v2)
 
+# Exercício 5.1 - Considerando os vetores abaixo, encontre o cross product entre eles, usando python puro
+# e numpy
+
+vetor1 = [1,2,3]
+vetor2 = [3,2,1]
+
+def cross_product(a: [], b: []) -> []:
+
+    c = [a[1] * b[2] - a[2] * b[1],
+         a[2] * b[0] - a[0] * b[2],
+         a[0] * b[1] - a[1] * b[0]]
+    
+    return c
+        
+cross_product(vetor1, vetor2)
+np.cross(vetor1, vetor2)
+
 # Exercício 6 - Crie uma lista em Python com 3 dimensões, preenchida com zeros.
 # Dica: a função pprint do pacote pprint permite imprimir uma lista tridimensional
 # de forma mais legível.
 
 import pprint
-
-v = [0,0,0]
+n = 3
+v = [[[0 for x in range(n)] for j in range(n)] for i in range(n)]
 pprint.pprint(v)
 
 # Exercício 7 - Considerando o vetor criado no item anterior, altere o valor na posição
 # nas coordenadas (2, 1, 0) para 92.
-for i in range(len(v)):
-    v[i] = 92
 
+v[2][1][0] = 92
 pprint.pprint(v)
 
 # Exercício 8 - Considere o vetor multidimensional A abaixo. Transforme-o em um vetor de 
@@ -108,6 +120,7 @@ A = np.array([[[ 0,  1],
                [20, 21],
                [22, 23]]])
 
+print("\nVetor multidimensional original:\n\n", A)
 print("\nVetor multidimensional original:\n\n", A.flatten())
 
 # Exercício 9 - Considere o vetor multidimensional A abaixo. Transforme-o em um vetor de
@@ -131,10 +144,9 @@ A = np.array([[[ 0,  1],
                [22, 23]]])
 
 print("\nVetor multidimensional original:\n\n", A.ravel())
-print("\nVetor multidimensional original:\n\n", A.ravel("C"))
-print("\nVetor multidimensional original:\n\n", A.ravel("F"))
-print("\nVetor multidimensional original:\n\n", A.ravel("A"))
-print("\nVetor multidimensional original:\n\n", A.ravel("K"))
+print("\nVetor multidimensional original:\n\n", A.ravel(order="C"))
+print("\nVetor multidimensional original:\n\n", A.ravel(order="F"))
+
 
 # A diferença é que o F retornar os itens da mesma posição
 

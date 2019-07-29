@@ -1,8 +1,27 @@
-* Produto Crusado (cross product)
+* Produto Crusado (cross product) - relacionamento entre eixos diferentes
 
     a x b => valor vetorial
 
     a = (ax, ay, az) / b = (bx, by, bz)
 
-    a x b = |a| x |b| x sin(angulo)
-    
+    a x b = |a| x |b| x sin/sen(angulo)   sin/sen => seno
+
+    exemplo:
+        a = (ax, ay, az)
+        b = (bx, by, bz)
+
+        
+         ax_ay_az 
+      bx|_*_|_x_|_x_|
+      by|_x_|_*_|_x_|
+      bz|_x_|_x_|_*_|
+
+      * = dot product
+      x = cross product
+
+      cx = ay * bz - az * by
+      cy = az * bx - ax * bz
+      cz = ax * by - ay * bx
+         
+
+      
