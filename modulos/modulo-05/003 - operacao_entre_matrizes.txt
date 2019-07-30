@@ -1,0 +1,33 @@
+* Operações com matrizes
+    Dada uma operação qualquer entre uma matriz A(m,n) e B(m,n) uma matriz C(m,n) será gerada
+
+    * Igualdade entre matrizes
+           A        B     | 1 <= i <= m
+        a(i,b) == b(i,j)  | 1 <= i <= n
+
+        | 2  1+x| = |2 4|  =>  |2 4| =>   1 + x = 4| => x = 3
+        |2-y  5 | = |1 5|  =>  |1 5| =>   2 - y = 1| => y = 1
+
+    * Adição
+        A(m,n)      B(m,n)
+        
+        A + B = [a(i,j) + b(i,j)] => C(m,n)
+
+           A            B           C
+        |5 2 3|  +  |6 7 -2| =  |11 9 1|
+        |1 2 7|     |3 5 19|    |4 7 26|
+
+            * Propriedades da Adição:
+                Comutatividade: A + B = B + A
+                Associatividade: (A + B) + C = A + (B + C)
+                Elemento Neutro: 0(m,n) + A = A
+                Matriz Oposta: A = -A => A + (-A) = 0(m,n)
+
+    * Subtração
+        A(m,n)      B(m,n)
+        
+        A - B = [a(i,j) - b(i,j)] => C(m,n)
+
+           A            B           C
+        |5 2 3|  -  |6 7 -2| =  |-1 -5  5 |
+        |1 2 7|     |3 5 19|    |-2 -3 -12|

@@ -1,0 +1,24 @@
+* Matrizes
+    Matrizes são formadas por linhas (os valores ordenadas na horizontal) e 
+    o número delas é representado pela letra "m", e colunas (os valores ordenados
+    na vertical), onde o número delas é representado pela letra "n".
+
+    a(i,j)  (n) colunas -------j------->
+(m) linhas    
+       |     | a(1,1) a(1,2)  . a(1,3)|
+       |     | a(2,1) a(2,2)  . a(2,3)|
+     i |     | a(3,1) a(3,2)  . a(3,3)|
+       |     |    .      .    '    .  |
+       |     |    .      .      '  .  |
+       |     | a(m,1) a(m,2)    a(m,n)|
+             
+
+    Em termos gerais: uma matriz m x n, com m e n números naturais não nulos, é toda
+    tabela composta por m x n elementos dispostos em m linhas e n colunas.
+
+* Representação
+    A matriz é representanda normalmente por uma letra maiuscula A = m x n (3x2)
+         
+        |  1 -7|
+    A = | 15  6| a(i,j) => a(2,2) = 6
+        | 64  8|
