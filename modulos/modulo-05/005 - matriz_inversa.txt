@@ -1,0 +1,4 @@
+* Matrizes inversas
+    Matriz inversa ou matriz inversível é um tipo de matriz quadrada, ou seja, que possui o mesmo número de linhas (m) e colunas (n).
+
+    Considerando duas matrizes quadradas A e B, A será inversa de B se, e somente se, A x B ou B x A for igual a I (Matriz Identidade).

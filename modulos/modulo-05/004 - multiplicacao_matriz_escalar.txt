@@ -1,0 +1,17 @@
+* Multiplicação de matrizes por número escalar.
+    &A = [& a(i,j)]
+    $ = valor escalar (letra grega alpha)
+
+    A = |2 1| => 3A => |6 3|
+        |3 1|          |9 3|
+
+    Propriedades
+        * Distributiva
+            & (A + B) => &*A + A*B
+            (&1 + &2) = A => &1*A + &2*A
+        * 
+            &1 * (&2A) => (&1 * &2) * A
+        * Elemento Neutro
+            1 * A = A
+            0(m,n) * A = 0(m,n)
+            
