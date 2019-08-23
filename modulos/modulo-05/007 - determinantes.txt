@@ -1,0 +1,5 @@
+Determinante
+    Para calcular o determinante de uma matriz, essa necessita ser primeiramente uma matriz
+    quadrada, ou seja, ter o mesmo número de linhas e colunas. O determinante por sua vez será
+    um número que representa essa matriz e atraves dele é possível saber se a mesma possui uma 
+    matriz inversa.
