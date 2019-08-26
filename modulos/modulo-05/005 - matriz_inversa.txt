@@ -2,3 +2,11 @@
     Matriz inversa ou matriz inversível é um tipo de matriz quadrada, ou seja, que possui o mesmo número de linhas (m) e colunas (n).
 
     Considerando duas matrizes quadradas A e B, A será inversa de B se, e somente se, A x B ou B x A for igual a I (Matriz Identidade).
+
+    Propriedades:
+        * Existe somente uma matriz inversa para cada matriz.
+        * Nem todas as matrizes possuem uma matriz inversa.
+        * A matriz inversa de uma inversa corresponde à própria matriz: A = (A^-1)^-1
+        * A matriz transposta de uma matriz inversa também é inversa: (A^t)^-1 = (A^-1)^t
+        * A matriz inversa de uma matriz transposta corresponde à transposta da inversa: (A^-1 * A^t)^-1
+        * A matriz inversa de uma matriz identidade é igual à matriz identidade

@@ -1,0 +1,35 @@
+* Escalonamento de matrizes
+    
+    Dizemos que uma matriz está na forma 'escalonada por linhas', se atender às seguintes regras:
+    
+        * Cada elemento principal, não nulo, de uma linha está à direita do elemento principal, 
+            não nulo, da linha procedente
+        * Todas as linhas nulas, se existirem, estão na base da matriz (últimas linhas).
+
+            exemplos:
+
+                A = |1 2 3 4|   B = |1 2 3 4|   C = |1 2 3 4  5|
+                    |0 2 2 3|       |0 2 2 3|       |0 1 4 3 -2|
+                    |0 0 0 3|       |0 0 3 3|       |0 0 0 3  2|
+                    |0 0 0 0|       |0 0 0 4|       |0 0 0 1  3|
+
+                A => Matriz escalonada 
+                    * Possui toda a base nula
+                    * O primeiro elemento não nulo de uma linha deve estar a direita de um elemento não nulo da linha precedente
+
+* Sistema linear, forma matricial e machine learning
+
+
+    * Sistema Linear 
+
+        | a(1,1)x1 + ... + a(1, n)xn = b1           | a(1,1)x1 + ... + a(1, n)xn|     | b1 | 
+        | a(2,1)x1 + ... + a(2, n)xn = b2    =>     | a(2,1)x1 + ... + a(2, n)xn|  =  | b2 | 
+        | a(3,1)x1 + ... + a(m, n)xn = bn           | a(3,1)x1 + ... + a(3, n)xn|     | bm |
+
+        podemos fazer o seguinte, distribuir os elementos em matrizes
+
+        | a(1,1) + ... + a(1, n) | | x1 |   | b1 |       | a(1,1) + ... + a(1, n) b1 |
+        | a(2,1) + ... + a(2, n) | | x2 | = | b2 |  =>   | a(2,1) + ... + a(2, n) b2 |
+        |    |   + ... +    |    | | |  |   |  | |       |    |   + ... +    |     | |
+        | a(m,1) + ... + a(m, n) | | x3 |   | bm |       | a(m,1) + ... + a(m, n) bm |
+                                                                Matriz Aumentada
