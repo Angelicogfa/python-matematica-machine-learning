@@ -33,3 +33,8 @@
         |    |   + ... +    |    | | |  |   |  | |       |    |   + ... +    |     | |
         | a(m,1) + ... + a(m, n) | | x3 |   | bm |       | a(m,1) + ... + a(m, n) bm |
                                                                 Matriz Aumentada
+
+
+Exemplos de calculos para escalonamento de matriz:
+
+
