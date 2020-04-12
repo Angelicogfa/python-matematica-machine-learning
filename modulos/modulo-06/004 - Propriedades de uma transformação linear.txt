@@ -11,3 +11,29 @@ Dado:
 
     3) T: (u - v) = T: (u) - T: (v)
         A transformação linear de u - v é o mesmo que a transformação linear de u menos a transformação linear de v
+
+Validando
+
+    1) T: R² -> R³ => T(x, y) = (x, y, x + y)
+        T: (0, 0) => (0, 0, 0)
+        Verdadeiro (É transformação linear)
+        
+       T: R³ -> R² => T: (x, y, z) => (x + y, y + 1)
+        T: (0, 0, 0) => (0, 1)
+        Falso (Não é transformação linear)
+
+    
+   2)  T: R² -> R³ =>  T(x, y) = (2x - y, x + y, x - 2y)
+
+        T(0, 0) => (0, 0, 0)
+        T(2, 3) => (-1, -5, 4) | (-2, -3) => (-1, -5, 4)
+        T((1,2) - (3,4)) => ((0,3,-3)-(2,7,-5)) = (-2,-4,2) | T(1,2) => (0,3,-3) - T(3,4) => (2,7,-5) => (0,3,-3) - (2,7,-5)=> (-2,-4,-2)
+
+    3) T: R³ -> R² => T(x, y, z) = (x-y+z, y + 1)
+        T(0,0,0) => (0, 1)
+
+        
+
+       
+
+
