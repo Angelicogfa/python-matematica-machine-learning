@@ -1,0 +1,13 @@
+Dado:
+
+    T: U -> V
+
+    Sendo:
+    1) T: (Ou) -> Ov 
+        A imagem do vetor nulo de U é a imagem do vetor nulo de v
+
+    2) T: (-u) = - T(u)
+        A transformação de -u é igual a menos a transformação linear de u
+
+    3) T: (u - v) = T: (u) - T: (v)
+        A transformação linear de u - v é o mesmo que a transformação linear de u menos a transformação linear de v

@@ -1,0 +1,19 @@
+Transformação Linear
+
+    * É um tipo particupar de operação entre dois espaços vetoriais que preserva as operações de adição vetorial e multiplicação por escalar. 
+        Tambem podemos chamar de aplicação linear ou mapa linear.
+
+    Com a transformação linear podemos modificar um objeto matematico em um plano ou espaço: girar, aumentar, diminuir, rotacionar ou aumentar
+        objetos matematicos (vetor ou matriz) no plano ou no espaço.
+
+    (Operações com transformação linear)[https://dododas.github.io/linear-algebra-with-python/]
+
+    > Para saber se um objeto matematico passou por uma transformação linear, temos algumas formas de validar, sendo:
+
+        * operação
+        * propriedade
+
+    
+
+
+

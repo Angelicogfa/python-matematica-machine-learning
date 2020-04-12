@@ -1,0 +1,23 @@
+Aplicar uma transformação linear de um espaço R² para um espaço R³
+
+    T: R² -> R³
+
+    T(x, y) => (x, y, z)
+
+    Como encontramos a imagem do vetor R² espaço vetorial em R³ ?
+
+        T(x, y) => (x, y, x + y)
+
+        Exemplo:
+
+            a:      ( 1,  2)
+            b:      (-2,  3)
+            a + b:  (-1,  5)
+           -3 * a:  (-3, -6) 
+
+               R²     =>     R³
+            (1 , 2)       (1, 2, 3)
+            (-2, 3)       (-2, 3, 1)
+
+            (-1,  5)      (-1, 5, 4) => (1, 2, 3) + (-2, 3, 1) => (-1, 5, 4)
+            (-3, -6)      (-3, -6, -9) =>  - 3 * (1, 2, 3) => (-3, -6, -9)
