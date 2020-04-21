@@ -1,0 +1,23 @@
+O que é uma transformação linear
+
+    Uma transformação linear T:U -> V é uma função que associa os elementos do espaço vetorial U
+    com os elementos do espaço vetorial V e que possui as seguintes propriedades:
+
+        T(u1 + u2) = T(u1) + T(u2) para todo u1, u2 E U
+        T(au) = aT(u) para todos u E U e para todo a E C
+
+    No caso em que U = V, podemos chamar uma transformação linear: F:U -> U de operador linear.
+
+
+A transformação linear entre dois espaços vetoriais é representada por: T: U -> V
+
+        U                                   V
+ ----------------                   -----------------
+        a                   =>              T(a)
+        b                   =>              T(b)
+      |a + b                =>        T(a+b) = T(a) + T(b)
+      |alpha*a              =>     T(alpha * a) = alpha * T(a)
+
+
+Para que uma transformação linear seja valida, é preciso que ambas as operações (adição e multiplicação por escalar) existam, se uma 
+delas não for válida, a transformação linear não ocorre.

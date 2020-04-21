@@ -1,0 +1,49 @@
+* Matriz Identidade
+
+    Diagonal principal = 1
+    Demais valores (triangulo superior e inferior) = 0
+
+    |1 0|   |1 0 0|
+    |0 1|   |0 1 0|
+            |0 0 1|
+
+* Matrizes inversas
+    Matriz inversa ou matriz inversível é um tipo de matriz quadrada, ou seja, que possui o mesmo número de linhas (m) e colunas (n).
+
+    Considerando duas matrizes quadradas A e B, A será inversa de B se, e somente se, A x B ou B x A for igual a I (Matriz Identidade).
+
+    Propriedades:
+        * Existe somente uma matriz inversa para cada matriz.
+        * Nem todas as matrizes possuem uma matriz inversa.
+        * A matriz inversa de uma inversa corresponde à própria matriz: A = (A^-1)^-1
+        * A matriz transposta de uma matriz inversa também é inversa: (A^t)^-1 = (A^-1)^t
+        * A matriz inversa de uma matriz transposta corresponde à transposta da inversa: (A^-1 * A^t)^-1
+        * A matriz inversa de uma matriz identidade é igual à matriz identidade
+
+Exemplo calculo matriz inversa
+=========================================================================================================
+* Determinar, caso exista, a inversa de A = |2  0|
+                                            |4 -3|
+
+A = |2  0|   A^-1 = |a b|
+    |4 -3|          |c d|
+
+    |2  0| * |a b| = |1 0|
+    |4 -3|   |c d|   |0 1|
+
+    |2.a + 0.c 2.b + 0.d| = |1 0|
+    |4.a - 3.c 4.b - 3.d|   |0 1|   
+
+    |   2.a      2.b   |  = |1 0|
+    |4.a - 3c 4.b - 3.d|    |0 1|
+
+    2.a = 1 => a = 1/2
+    2.b = 0 => b = 0/2 => b = 0
+    4.a - 3c = 0 => 4. 1/2 - 3c = 0 => 2 - 3c = 0 => -3c =  -2 => c = 2/3
+    4.b - 3.d = 1 => 4.0 - 3.d = 1 => -3.d = 1 => d = - 1/3
+
+
+A = |2  0| * A^-1= |1/2   0 | => |1 0|
+    |4 -3|         |2/3 -1/3|    |0 1| 
+=========================================================================================================
+

@@ -1,0 +1,93 @@
+* Determinante
+
+    Determinante é um número escalar, normalmente representado pelo conjunto dos numeros reais, que representa uma determinada matriz quadrada.
+
+    > Determinante de ordem 1:
+
+        A = [3] => det(A) = 3 ou |A| = 3
+
+    > Determinante de ordem 2
+        Multipla-se os elementos da diagonal principal e subtrai o valor da multiplicação da diagonal secundaria
+
+        A = |3  1|  => (3 * -4) - (1 * 2) => -12 - 2 = -14
+            |2 -4|
+
+    > Determinante de ordem 3
+        Repete a primeira e a segunda coluna. Depois multiplicar principais e soma-los, depois subtrair da soma entre as multiplicações das diagonais secundarias
+
+        A = |4  5 -3|4  5
+            |2  1  0|2  1
+            |3 -1  1|3 -1
+
+            Diagonais principais:
+                 4 * 1 *  1 = 4
+                 5 * 0 *  3 = 0
+                -3 * 2 * -1 = 6
+                Soma: 10
+
+            Diagonais secundarias:
+                -3 * 1 *  3 = -9
+                 4 * 0 * -1 =  0
+                 5 * 2 *  1 =  10
+                Soma = 1
+
+            10 - 1 = 9
+
+    > Determinante de ordem maior que 3
+        Utilizaremos o teorema de laplace para resolver o determinante de matrizes de ordem 4 e acima.
+
+        * Menor Complementar (Dij):
+            O menor complementar de um elemento de uma matriz quadrada é o determinante dela, eliminando-se a linha
+            e a coluna as quais o elemento pertence:
+
+            A = | 1  2  3 |
+                |-5  0  2 |
+                | 1  3  0 |
+
+            exemplo: D22 (eliminamos a linha 2 e a coluna 2):
+                
+                | 1 3 | => 1 * 0 - 3 * 1 => 0 - 3 => D = -3
+                | 1 0 |
+
+        * Cofator (Cij):
+            Defini, se:
+                Cij = (-1)^(i+j) * Dij
+
+            A = | 3  1  0 |
+                |-2  2  3 |
+                | 0  1  2 |
+
+            exemplo: C33
+                (-1)^(3+3) * D33
+
+                | 3  1 | => 3 * 2 - 1 * (-2) => 6 + 2 => 8
+                |-2  2 |
+
+                (-1)^6 * 8 => 1 * 8 => C33 = 8
+        
+        Escolhe-se uma fila (linha ou coluna) qualquer. O determinante será a soma entre cada elemento multiplicado pelo seu cofator.
+
+            A = | 3  1  0  1 | => coluna escolida (3) => 0  (escolha sempre a linha ou coluna com mais zeros, assim você faz menos contas)
+                | 0 -1  3  4 |                           3   
+                | 1  1  0  2 |                           0
+                | 0  1  1 -1 |                           1
+
+            D = 0 * C31 + 3 * C23 + 0 * C33 + 1 * C43
+
+            C23 = (-1)^(2+3) * D23 => -1 * D23 => -1 * (-7) = 7
+            C43 = (-1)^(4*3) * D43 => -1 * D43 => -1 * (-13) = 13
+
+            D = 3 * 7 + 1 * 13 => 21 + 13 => D = 34
+
+
+ Em suma, podemos listar as seguintes propriedades de uma determinante:
+
+    * Matrizes similares possuem o mesmo determinante
+    * Se A tem uma linha (ou uma coluna) de zeros, então det(A)=0
+    * Permutando-se duas linhas (ou duas colunas) de A, obtem-se uma matriz B, sendo que det(B) = -(det(A))
+    * Se A tem duas linhas (ou duas colunas iguais), então det(A) = 0
+    * Multiplicando-se uma linha (ou duas colunas) proporcionais, então: det(A)=0
+    * Somando-se aos elementos de uma linha (ou uma coluna) de A os elementos de uma outra linha (ou outra coluna) previamente
+    multiplicado por uma constante a diferente de 0, obtém-se uma matriz B, e det(B) = det(A), isto é, o determinante não se altera
+    * O determinante de uma matriz A é igual ao determinante da transposta da matriz A
+    * Seja A uma matriz de ordem n, dizemoss que A é não singular se det(A) for diferente de 0 e singular se det(A)=0
