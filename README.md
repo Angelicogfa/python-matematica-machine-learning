@@ -5,4 +5,7 @@ Este projeto tem como finalidade abordar o conteúdo do curso de matemática par
 ## Conteudos
 * Modulo 01, 02 e 03 - Revisão
 * Modulo 04 - Vetores e Espaço Vetorial
-* Modulo 5 - Transformação Linear
+* Modulo 05 - Matrizes e Determinantes
+* Modulo 06 - Transformação Linear
+* Modulo 07 - Sistemas de Equações Lineares
+* Modulo 08 - Auto valores e auto vetores
