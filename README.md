@@ -11,3 +11,6 @@ Este projeto tem como finalidade abordar o conteúdo do curso de matemática par
 * Modulo 08 - Auto valores e auto vetores
 * Modulo 09 - Limites
 * Modulo 10 - Derivadas e Integrais
+* Modulo 11 - Calculo Multivariado
+* Modulo 12 - Otimização em Machine Learning
+* Laboratorio 01
