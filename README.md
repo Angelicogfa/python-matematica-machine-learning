@@ -14,3 +14,10 @@ Este projeto tem como finalidade abordar o conteúdo do curso de matemática par
 * Modulo 11 - Calculo Multivariado
 * Modulo 12 - Otimização em Machine Learning
 * Laboratorio 01
+    * Regressão Linear
+    * SVM
+* Laboratório 02
+    * PCA
+    * Reinforcement Learning
+* Bonus
+    * Computação Quantica
